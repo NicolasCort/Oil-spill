@@ -2,8 +2,12 @@
 
 ## Introduction
 
-This is a project that uses machine learning to detect oil spills . The model is trained on a dataset of satellite images with annotated oil spills to recognize oil spills in new data.
+This is a project that uses machine learning to detect oil spills. The dataset was developed by starting with satellite images of the ocean, some of which contain an oil spill and some that do not.
+Images were split into sections and processed using computer vision algorithms to provide a vector of features to describe the contents of the image section or patch.
+The task is, given a vector that describes the contents of a patch of a satellite image, then predicts whether the patch contains an oil spill or not, e.g. from the illegal or accidental dumping of oil in the ocean.
 
+There are two classes and the goal is to distinguish between spill and non-spill using the features for a given ocean patch.
+All the data is taken from https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection
 
 ## Libraries
 
