@@ -30,10 +30,10 @@ I used seven models:
 
 ## Results
 
-After training the models we got these results:
+The model is evaluated on a validation set after every epoch during training and its performance is plotted to monitor overfitting. The final results on the test set are reported in terms of accuracy:
 
 <p align="center">
-  <img src="results.png" width="1000" height="250" align="center"> 
+  <img src="results.png" width="800" height="300" align="center"> 
 </p>
 
 
