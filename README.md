@@ -36,6 +36,7 @@ The model is evaluated on a validation set after every epoch during training and
   <img src="results.png" width="800" height="300" align="center"> 
 </p>
 
+Even though the algorithms have all a really good accuracy the results arent good. The problem is that our target consist of a lot of 0s an some 1s, the algorithms fail half of the 1 targets. The objective for this data was to see when the target is 1 because those are the cases where there is spill oil, the algorithms only have those right half the time so it isnt consistent. To improve the algorithms we would need more cases of target=1.
 
 ## Installation
 
