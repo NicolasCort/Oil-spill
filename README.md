@@ -9,6 +9,10 @@ The task is, given a vector that describes the contents of a patch of a satellit
 There are two classes and the goal is to distinguish between spill and non-spill using the features for a given ocean patch.
 All the data is taken from https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection
 
+<p align="center">
+  <img src="oilspill.png" width="800" height="300" align="center"> 
+</p>
+
 ## Libraries
 
 - Python 3.7 or later
