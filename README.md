@@ -10,7 +10,7 @@ There are two classes and the goal is to distinguish between spill and non-spill
 All the data is taken from https://www.kaggle.com/datasets/sudhanshu2198/oil-spill-detection
 
 <p align="center">
-  <img src="oilspill.png" width="800" height="300" align="center"> 
+  <img src="oilspill.png" width="500" height="300" align="center"> 
 </p>
 
 ## Libraries
